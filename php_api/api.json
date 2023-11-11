@@ -1,0 +1,99 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "php_api",
+    "dateExported": "2023-11-11T15:34:27.258Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "48811911-c5bc-4603-903b-be96d5de4e86",
+            "colId": "15f1a0db-038a-4c48-ab48-241b61f5f312",
+            "containerId": "",
+            "name": "status",
+            "url": "http://localhost/projetos-php/php_api/public/v1/status/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-11T14:58:24.460Z",
+            "modified": "2023-11-11T15:01:30.434Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4a12c160-917c-4625-ada6-847022377f98",
+            "colId": "15f1a0db-038a-4c48-ab48-241b61f5f312",
+            "containerId": "",
+            "name": "get_all_data",
+            "url": "http://localhost/projetos-php/php_api/public/v1/get_all_data/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-11-11T15:11:43.113Z",
+            "modified": "2023-11-11T15:11:56.520Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c2d70170-f988-4a30-bd64-dec78b2c8c18",
+            "colId": "15f1a0db-038a-4c48-ab48-241b61f5f312",
+            "containerId": "",
+            "name": "get_all_names",
+            "url": "http://localhost/projetos-php/php_api/public/v1/get_all_names/",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-11-11T15:15:49.493Z",
+            "modified": "2023-11-11T15:16:07.172Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7e45a9b2-c0cc-4932-a6e6-bdd1f29f96b8",
+            "colId": "15f1a0db-038a-4c48-ab48-241b61f5f312",
+            "containerId": "",
+            "name": "get_total_records",
+            "url": "http://localhost/projetos-php/php_api/public/v1/get_total_records/",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-11-11T15:19:02.132Z",
+            "modified": "2023-11-11T15:19:21.039Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2a6946e2-414e-433a-9761-e8f24d4c0764",
+            "colId": "15f1a0db-038a-4c48-ab48-241b61f5f312",
+            "containerId": "",
+            "name": "get_emaisl_domains",
+            "url": "http://localhost/projetos-php/php_api/public/v1/get_email_domains/",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-11-11T15:25:49.106Z",
+            "modified": "2023-11-11T15:26:16.844Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0d6c6bf4-7cd1-417f-ad5b-6ad92d9542ea",
+            "colId": "15f1a0db-038a-4c48-ab48-241b61f5f312",
+            "containerId": "",
+            "name": "get_person_Data",
+            "url": "http://localhost/projetos-php/php_api/public/v1/get_person_data?id=2",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-11-11T15:32:22.772Z",
+            "modified": "2023-11-11T15:33:02.823Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}
